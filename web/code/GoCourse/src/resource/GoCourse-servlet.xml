@@ -21,7 +21,7 @@
 	<!-- <mvc:annotation-driven/> -->
 	<mvc:annotation-driven></mvc:annotation-driven>
 	<!-- 自动扫描包，可以写多个 -->
-    <context:component-scan base-package="katoa.gocourse.modules.*.controller" ></context:component-scan>
+    <context:component-scan base-package="katoa.gocourse.module.*.controller" ></context:component-scan>
     <!-- 请求映射器 -->
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean>
     <!-- 请求处理器 -->
